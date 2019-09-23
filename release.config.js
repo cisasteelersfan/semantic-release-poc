@@ -6,9 +6,6 @@ module.exports = {
         parserOpts: {
           mergePattern: /^Merge pull request #(\d+) from (.*)$/,
           mergeCorrespondence: ["id", "source"]
-          // headerPattern: /^(\w*)(?:\((.*)\))?: (.*)$/,
-          //   headerPattern: /\\n\\n(\w*)(?:\((.*)\))?: (.*)$/,
-          //   headerCorrespondence: [`type`, `scope`, `subject`]
         }
       }
     ],

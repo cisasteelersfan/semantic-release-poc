@@ -1,0 +1,22 @@
+{
+  "name": "semantic-release-poc",
+  "version": "1.0.0",
+  "description": "Proof-of-concept for using [semantic-release](https://github.com/semantic-release/semantic-release) to automatically enforce Semantic Versioning and create changelogs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cisasteelersfan/semantic-release-poc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cisasteelersfan/semantic-release-poc/issues"
+  },
+  "homepage": "https://github.com/cisasteelersfan/semantic-release-poc#readme",
+  "devDependencies": {
+    "semantic-release": "^15.13.24"
+  }
+}

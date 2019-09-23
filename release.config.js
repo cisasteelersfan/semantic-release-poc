@@ -3,16 +3,12 @@ parserOpts = {
   mergeCorrespondence: ["id", "source"]
 };
 
-releaseRules = [
-  { type: "docs", release: "patch" },
-  { type: "refactor", release: "patch" }
-];
+releaseRules = [{ type: "refactor", release: "patch" }];
 
 // Copied from https://github.com/conventional-changelog/conventional-changelog/blob/master/packages/conventional-changelog-angular/writer-opts.js#L27
 // and modified to support adding all commit types to the release notes
 customTransform = (commit, context) => {
   const issues = [];
-  console.debug("commitType", commit.type);
 
   commit.notes.forEach(note => {
     note.title = `BREAKING CHANGES`;

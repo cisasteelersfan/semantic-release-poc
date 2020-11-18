@@ -18,6 +18,6 @@
   "homepage": "https://github.com/cisasteelersfan/semantic-release-poc#readme",
   "devDependencies": {
     "@semantic-release/exec": "^3.3.7",
-    "semantic-release": "^15.13.24"
+    "semantic-release": "^17.2.3"
   }
 }
